@@ -1,0 +1,8 @@
+# Local paper copies and editor/system files
+*.pdf
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+__pycache__/
