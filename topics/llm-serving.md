@@ -6,7 +6,7 @@
 
 > 年份口径：arXiv 链接取首次提交年份；会议或出版社原文链接取对应发表年份。索引年份不一定等于最终会议年份。
 
-> “研究切入点”用于论文导航；个人阅读笔记正文按实际阅读进度补充。
+> 每篇 Notes 概括核心思路、创新贡献、关键结果与适用边界。
 
 ## 专题目录
 
@@ -22,7 +22,7 @@
 
 | 年份 | 论文题目 | 研究切入点 | 原文 | 笔记 |
 | --- | --- | --- | --- | --- |
-| 2023 | Efficient Memory Management for Large Language Model Serving with PagedAttention | 分页式 KV cache 管理与共享 | [arXiv](https://arxiv.org/abs/2309.06180) | [Notes · 待补](../notes/llm-serving/2023-pagedattention.md) |
+| 2023 | Efficient Memory Management for Large Language Model Serving with PagedAttention | 分页式 KV cache 管理与共享 | [arXiv](https://arxiv.org/abs/2309.06180) | [Notes](../notes/llm-serving/2023-pagedattention.md) |
 
 <a id="scheduling"></a>
 
@@ -32,7 +32,7 @@
 
 | 年份 | 论文题目 | 研究切入点 | 原文 | 笔记 |
 | --- | --- | --- | --- | --- |
-| 2024 | Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve | 分块 Prefill 与无停顿批处理 | [arXiv](https://arxiv.org/abs/2403.02310) | [Notes · 待补](../notes/llm-serving/2024-sarathi-serve.md) |
+| 2024 | Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve | 分块 Prefill 与无停顿批处理 | [arXiv](https://arxiv.org/abs/2403.02310) | [Notes](../notes/llm-serving/2024-sarathi-serve.md) |
 
 <a id="disaggregated"></a>
 
@@ -42,8 +42,8 @@
 
 | 年份 | 论文题目 | 研究切入点 | 原文 | 笔记 |
 | --- | --- | --- | --- | --- |
-| 2024 | DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving | 分离 Prefill 与 Decode，并按延迟目标配置资源 | [arXiv](https://arxiv.org/abs/2401.09670) | [Notes · 待补](../notes/llm-serving/2024-distserve.md) |
-| 2024 | Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving | 分离两阶段并构建分布式 KV cache | [arXiv](https://arxiv.org/abs/2407.00079) | [Notes · 待补](../notes/llm-serving/2024-mooncake.md) |
+| 2024 | DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving | 分离 Prefill 与 Decode，并按延迟目标配置资源 | [arXiv](https://arxiv.org/abs/2401.09670) | [Notes](../notes/llm-serving/2024-distserve.md) |
+| 2024 | Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving | 分离两阶段并构建分布式 KV cache | [arXiv](https://arxiv.org/abs/2407.00079) | [Notes](../notes/llm-serving/2024-mooncake.md) |
 
 ---
 
